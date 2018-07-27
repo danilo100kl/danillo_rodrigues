@@ -1,5 +1,4 @@
 n = int(input())
-i = 0
 v = []
 nova = []
 while(n!=0):
@@ -9,4 +8,3 @@ while(n!=0):
     print(nova)
     nova.clear()
     n = int(input())
-
