@@ -1,10 +1,10 @@
-n = int(input())
-v = []
-nova = []
-while(n!=0):
-    v = input()
-    for j in range((len(v)-1),-1,-1):
-        nova.append(v[j])
-    print(nova)
-    nova.clear()
+while(1==1):
     n = int(input())
+    if(n==0):
+        break
+    lista = input()
+    listaNova = ''
+    for i in range(len(lista)-1,-1,-1):
+        listaNova = listaNova + lista[i]
+    print(listaNova)
+    
