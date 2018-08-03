@@ -4,10 +4,10 @@ def romanos(vetor):
   ant = "0"
   aux = 0 
   for atual in vetor:
-    if (atual == ant):
+    if(atual == ant):
       aux += valor[atual]
     else:
-       if (valor[atual]>valor[ant]):
+       if(valor[atual]>valor[ant]):
           total -= aux
        else:
           total += aux
